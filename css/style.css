@@ -1,0 +1,543 @@
+*/{
+  margin: 0; 
+  padding: 0; 
+  /* background-color: green; */
+}
+ .sectionOne {
+  height: 77vh;
+  /* background-color: greenyellow; */
+  align-items: center;
+ }
+  .sectionOne .navbar{
+  height: 13%;
+  /* width: 40px; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: bisque;
+  
+ }
+ .sectionOne .logo{
+  font-size: 30px;
+  font-weight: 600;
+  color: #e42e13;
+}
+.sectionOne li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #484848;
+  /* border: solid 1px black; */
+}
+.sectionOne .signin-btn {
+  padding: 16px 20px;
+  background-color: #e42e13;
+   border-radius: 50px;
+  font-weight: 500;
+  color: #ffffff;
+} 
+.sectionOne .banner{
+  height: 87%;
+  /* background-color: blueviolet; */
+  background-image:url(/css/images/banner.webp) ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.sectionOne .bannerText{
+  height: 45%;
+  width: 30%;
+  margin-top: 35px;
+  text-align: center;
+  /* border: solid 1px 
+  black; */
+}
+.sectionOne .bannerText h1{
+  font-size: 42px;
+  color: #484848;
+  line-height: 42px;
+  margin-bottom: 15px;
+
+}
+.sectionOne .bannerText p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #757575;
+  margin-bottom: 24px;
+
+}
+.sectionOne .bannerText button{
+  font-size: 18px;
+  text-transform: capitalize;
+  border: none;
+  background-color: #e42e13;
+  color: #ffffff;
+  padding: 13px 40px;
+  border-radius: 40px;
+  font-weight: 500;
+  
+}
+/* sectionTwo start */
+
+.sectionTwo{
+  height: 77vh;
+  /* background-color: aqua; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionTwo h2,
+.sectionTwo p{
+  text-align: center;
+}
+.sectionTwo .content{
+  height:77% ;
+  /* background-color: #008000; */
+  width: 100%;
+  display:flex;
+  /* border: solid 1px red; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+.sectionTwo .content .principal{
+  height: 90%;
+  width: 25%;
+  /* border: solid 1px black; */
+  font-size: 16px;
+  gap: 3vh;
+}
+.sectionTwo .content .image{
+  height: 50%;
+  background-color: whitesmoke;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.sectionTwo .content .conviniency .image{
+  background-image: url(/css/images/convenience.webp);
+}
+
+.sectionTwo .content .variety .image{
+ background-image: url(/css/images/variety.webp);
+}
+.sectionTwo .content .deliciousness .image{
+  background-image: url(/css/images/deliciousness.webp);
+}
+
+
+
+/* sectionthree  */
+
+
+.sectionThree{
+  height: 77vh;
+  /* background-color: #008000; */
+  display: flex;
+  
+}
+.sectionThree .image,
+.sectionThree .imagedescription{
+height: 100%;
+width: 50%;
+/* background-color: #e42e13; */
+}
+
+.sectionThree .image{
+  background-image:url(/css/images/Family_cooking.webp);
+  background-size: cover;
+  /* background-position: centre; */
+}
+.sectionThree .imagedescription h2{
+  font-size: 40px;
+  /* text-align: center; */
+  font-weight: 400;
+  color: #e42e13;
+  
+}
+.sectionThree .imagedescription p{
+  font-size: 20px;
+  font: bold;
+  /* text-align: center; */
+  font-weight: 300;
+}
+.sectionThree .imagedescription > button{
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: none;
+  background-color: #e42e13;
+  padding: 13px 40px;
+  border-radius: 40px;
+  font-weight: 500;
+} 
+.sectionThree .imagedescription span{
+  font-size: 25px;
+  color: #e42e13;
+  font: bolder;
+}
+/* section four */
+
+.sectionFour{
+  height: 77vh;
+  /* background-color: green; */
+  text-align: center;
+}
+
+.sectionFour h2{
+  font-size: 28px;
+  font-weight: 600;
+  color: #484848;
+  padding: 50px 0 10px 0;
+}
+.sectionFour p{
+  width: 50%;
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #757575;
+}
+.sectionFour .menu{
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.sectionFour .menu-item{
+  height: 75%;
+  width: 24%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.sectionFour .menu span{
+  padding: 6px 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 20px;
+  border-color:red;
+  font-size: 14px;
+  /* border: solid 1px black; */
+}
+.sectionFour .vegan {
+  background-image: url(/css/images/vegan.webp);
+}
+.sectionFour .weekly-classic {
+  background-image: url(/css/images/weekly_classic.webp);
+}
+.sectionFour .vegetarian{
+  background-image: url(/css/images/Vegetarian.webp);
+}.sectionFour .vegan span{
+  background-color: #d8f4a4;
+  color: #78a42b;
+}
+.sectionFour .weekly-classic span{
+  background-color: #d9e3fe;
+  color: #4ab074;
+}
+.sectionFour button {
+  /* margin: auto; */
+  font-size: 16px;
+  color:white;
+  font-weight: 400;
+  padding: 18px 46px;
+  border-radius: 30px;
+  background-color: #e42e13;
+}
+
+/* sectionFive start */
+.sectionFive{
+ height: 77vh; 
+ /* background-color: #757575; */
+}
+sectionFive h2 >img{
+  height: 48px;
+  margin: 0 50px -10px 0;
+}
+.sectionFive h2{
+  text-align: center;
+}
+.sectionFive .content{
+  height:50% ;
+  text-align: center;
+}
+.sectionFive  .content .users{
+  height: 77%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 18%);
+  gap: 20px;
+  /* background-color: green; */
+  background-position:center ;
+
+}
+
+.sectionFive .users{
+  height: 45%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 18%);
+  gap: 20px;
+
+}
+
+.sectionFive .content .user{
+  background-position: center;
+  background-size: cover;
+  /* background-color:blue; */
+    /* /* border: solid 1px black; */
+}
+.sectionFive .one{
+  background-image: url(/css/images/user1.webp);
+}
+.sectionFive .two{
+  background-image: url(/css/images/user\ 2.webp);
+}
+.sectionFive .three{
+  background-image:url(/css/images/user3.webp) ;
+}
+.sectionFive .four{
+  background-image: url(/css/images/user4.webp);
+}
+
+.sectionFive p{
+  font-size: 26px;
+  font-weight: 400;
+  color: #484848;
+  gap: 10%;
+}
+.sectionFive p > span {
+  color: #e42a13;
+}
+.sectionFive  p:nth-of-type(3){
+  font-size: 18px;
+}
+.sectionFive p > img{
+height: 24px;
+margin-bottom: -6px;
+text-align: center;
+}
+.sectionFive .fa-solid{
+  color: #f6ad88;
+}
+
+/* sectionsix */
+
+.sectionSix{
+  height: 77vh;
+  /* background-color: green; */
+  align-items: center;
+  background-image: url(/css/images/subscribe.webp);
+  display: flex;
+  justify-content: center;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: #e42a13; */
+}
+
+.sectionSix .content{
+  height: 70vh;
+  /* background-color: blue; */
+  width: 77%;
+}
+.sectionSix .content .form{
+  height: 40px;
+  background-color: #ffffff;
+  width: 80%;
+  /* background-position: center; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 77%;
+  border-radius: 10px;
+  text-align: center;
+}
+.sectionSix .forms >h2{ 
+  font-size: 36px;
+  padding: 15px 0;
+}
+.sectionSix .form > input{ 
+  height: 40px;
+  width: 350px;
+  border-radius: 4px 0 05px;
+  margin-right:  -6px;
+  margin-bottom: -15px;
+
+
+  
+}
+.sectionSix .form >button{ 
+  padding: 14px 16px 10px ;
+  border-radius: 0 5px 5px 0;
+  margin-left:  -5px;
+  margin-bottom: -15px;
+  font-size: 16px;
+  background-color: red;
+  
+}
+.sectionSix .content > p{ 
+  text-align: center;
+  font-size: 16px;
+  width: 70%;
+  margin: auto;
+}
+
+
+/* secvtion seven */
+.sectionSeven {
+  height: 87vh;
+  align-items: center;
+  background-color: #fafafa;
+  justify-content: center;
+}
+.sectionSeven h2{
+  font-size: 28px;
+  color: red;
+  margin-top: 30px;
+}
+.sectionSeven h2,
+.sectionSeven p{
+  text-align: center;
+
+}
+.sectionSeven h3{
+  font-size: 16px;
+  font-weight: 600;
+  color:#484848;
+}
+.sectionSeven .navigation{
+  height: 30%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(7, 12%);
+  gap: 10px;
+  /* background-color: green; */
+  margin-top: 30px;
+}
+.sectionSeven .navigation  div > span{
+  color: #757575;
+}
+.sectionSeven .navigation .blog{
+  text-align: center;
+  
+}
+
+ .sectionSeven .navigation .contacts{
+  grid-column: span 2;
+  width: 80%;
+  text-align: center;
+}
+.sectionSeven .navigation  div > span{
+  color: #757575;
+}
+.sectionSeven .contact{
+  height: 30%;
+  width: 100%;
+  /* background-color:blue; */
+  text-align: right;
+ font-size: 20px;
+  display: grid;
+  /* justify-content:space-between; */
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  
+
+}
+.sectionSeven .contact > div{
+  /* border: solid 1px black; */
+  /* background-color: pink;  */
+  width: 80%;
+  justify-content: center;
+  background-position: center;
+
+
+}
+  
+.sectionSeven .contact .subscribe {
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+  justify-items: left;
+}
+.sectionSeven .contact .subscribe > lable{
+  font-size: 14px;
+  color:grey;
+}
+.sectionSeven .contact .subscribe > input{
+  height: 50px;
+  width: 150px;
+  border-radius: 0 5px 5px 0;
+  border-right: none;
+  border-color:#75757580 ;
+}
+.sectionSeven .contact .subscribe >button {
+  padding: 12px 10px 14px 8px;
+  border-radius: 0 5px 8px;
+  margin-left: -5px;
+  margin-bottom: -15px;
+  font-size: 16px;
+  color: white;
+  background-color: #e42a13;
+}
+.sectionSeven .contact .reviews{
+  text-align:center;
+  align-items: center;
+  align-content: center;
+  justify-items:right;
+}
+.sectionSeven .image{
+  background-image: url(/css/images/blog.webp);
+ height:50%;
+  margin-right: 10px;
+  align-content: right;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+}
+.sectionSeven .contact .socials{
+  text-align: right;
+  align-items: center;
+  align-content: center;
+  justify-content: right;
+  justify-items: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+

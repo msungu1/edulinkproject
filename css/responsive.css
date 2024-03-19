@@ -1,0 +1,269 @@
+@media screen and (max-width: 1024px) {
+  .sectionOne .bannerText {
+    margin-top: 100px;
+  }
+  .sectionOne.bannerText h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .sectionOne.bannerText {
+    padding: 16px 40px;
+  }
+
+  .sectionTwo .principal {
+    height: 90%;
+    width: 30%;
+  }
+  .SectionThree.button {
+    height: 40%;
+    padding: 16px 40px;
+  }
+  .sectionFour menu-item {
+    height: 100%;
+  }
+
+  .sectionFour p {
+    width: 70%;
+    height: 80%;
+  }
+  .sectionFour menu-item {
+    height: 100%;
+  }
+  .sectionFour .menu {
+    height: 30%;
+    flex-direction: column;
+  }
+  .sectionFive {
+    height: 150vh;
+  }
+  .sectionFive .users {
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 40%);
+    gap: 20px;
+
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .sectionSix {
+    height: 70vh;
+    width: 100%;
+  }
+  .sectionSix h2 {
+    font-size: 32px;
+  }
+  .sectionSeven {
+    height: 100vh;
+  }
+  .sectionSeven .contact .subscribe > lable {
+    font-size: 40px;
+  }
+  .sectionSeven .contact .social > brands {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .sectionSeven .reviews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .sectionOne .image .imagedescription {
+    font-size: 15px;
+  }
+  .sectionOne p {
+    width: 70%;
+    height: 80%;
+  }
+  .sectionOne .bannerText {
+    width: 45%;
+  }
+  .sectionTwo {
+    height: 130vh;
+    padding: 20px 0;
+  }
+  .sectionTwo .title {
+    height: auto;
+  }
+
+  .sectionTwo .content{
+    flex-direction: column;
+  }
+  .sectionTwo .principal {
+    flex-direction: column;
+    align-items: center;
+    height: 92%;
+  }
+  .sectionTwo .principal {
+    height: 90%;
+    width: 30%;
+  }
+
+  .SectionThree.button {
+    height: 40%;
+    padding: 16px 40px;
+  }
+  .sectionFour .menu {
+    height: 50%;
+    width: 24%;
+    border: solid 1px;
+    height: 60%;
+    margin: 20px 0;
+  }
+  .sectionFour .menu-item {
+    height: 100%;
+  }
+  .sectionFive {
+    height: 174vh;
+  }
+  .sectionFive {
+    grid-template-columns: repeat(2, 40%);
+    display: grid;
+  }
+  .sectionSix .form > p {
+    font-size: 32px;
+  }
+  .sectionSeven .contact .subscribe > input {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+@media screen and(max-width:720px) {
+  .navbar {
+    justify-content: center;
+  }
+  .navigation {
+    display: none;
+  }
+  .bannerText {
+    width: 50%;
+  }
+  .sectionTwo .content > p {
+    font: size 15%;
+    text-align: center;
+  }
+
+  .SectionThree > button {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .SectionThree {
+    flex-direction: column;
+  }
+  .SectionThree .imagedescription h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sectionFour .menu {
+    height: 40%;
+    gap: 10px;
+  }
+  .sectionFive {
+    display: grid;
+  }
+
+  .sectionFive .content .users {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .sectionSix .content {
+    width: 100vh;
+  }
+
+  .sectionSix .form > input {
+    width: 250px;
+  }
+  .sectionSix .form > button {
+    font-size: 16px;
+  }
+  .sectionSeven .contact .blog .image {
+    height: 40%;
+  }
+  .sectionSeven .contact .subscribe > input {
+    width: 80%;
+  }
+}
+
+@media screen and(max-width:570px) {
+  .bannerText h1 {
+    width: 50%;
+  }
+  .sectionTwo .content > p {
+    text-align: center;
+    font: size 15px;
+  }
+  .sectionTwo {
+    height: 80%;
+  }
+  .sectionFive {
+    height: 250vh;
+  }
+  .sectionSix .content {
+    width: 100%;
+    justify-content: center;
+  }
+  .sectionSix .content > p {
+    text-align: center;
+  }
+  .sectionSeven .navigation .blog .image {
+    height: 30%;
+  }
+  .sectionSeven .navigation {
+    height: 50%;
+    display: grid;
+  }
+  .sectionSeven .contact .subscribe > input {
+    width: 70%;
+  }
+}
+@media screen and(max-width:442px) {
+  .bannerText {
+    width: 75%;
+  }
+  .sectionTwo .content {
+    gap: 10px;
+  }
+  .sectionFour {
+    font-size: 20px;
+  }
+
+  .sectionFour h2 {
+    font-size: 30px;
+    gap: 10px;
+  }
+  .sectionFour button {
+    font-size: 12px;
+  }
+  .sectionFive .users {
+    gap: 20px;
+    height: 80%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .sectionFive .content > span {
+    font-size: 32px;
+    gap: 20px;
+  }
+
+  .sectionFive .content .users {
+    grid-template-columns: repeat(2, 30%);
+  }
+
+  .sectionSix .content {
+    height: 80%;
+    width: 100%;
+  }
+  .sectionSeven.contact .reviews {
+    gap: 10px;
+  }
+  .sectionSeven .contact .subscribe > input {
+    width: 65%;
+  }
+}
